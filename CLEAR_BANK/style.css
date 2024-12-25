@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    /* height: 100%; */
+    /* width: 100%; */
+}
+@font-face {
+    font-family: f1;
+    src: url(./ClearSansDisplayRegular.woff2);
+}
+@font-face {
+    font-family: f2;
+    src: url(./ClearSansTextBold.woff2);
+}
+@font-face {
+    font-family: f3;
+    src: url(./ClearSansTextRegular.woff2);
+}
+h2 i{
+    opacity: 0;  
+}
+h2:hover i{
+    opacity: 1;
+    
+}
+
+.logo{
+    animation-name: anime;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anime{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
