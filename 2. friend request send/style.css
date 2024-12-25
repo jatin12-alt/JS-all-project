@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(143, 143, 143, 0.949);
+
+}
+
+.box {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.box>.upper {
+    height: 150px;
+    width: 150px;
+    top: 7%;
+    background-image: url(https://images.unsplash.com/photo-1669257965114-225af79f3455?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90JTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    left: 22%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.box>.lower {
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 65px;
+}
+
+.box>.lower>h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 15px;
+
+}
+.box>.lower>h3 {
+    margin-left: 40px;
+    font-weight: 300;
+
+    font-size: 14px;
+    margin-top: 5px;
+}   
+.box>.lower>p {
+    width: 180px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 20px;
+    position: absolute;
+}   
+
+.box>.lower>button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0096FE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 22px;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.box>.lower>.btn{
+    margin-top: 20px;
+    width:60px;
+    border: 1px solid #000;
+    color: black;
+    background-color: transparent;
+    font-size: 8px;
+    display: none;
+}

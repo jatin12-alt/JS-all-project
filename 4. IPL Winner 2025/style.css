@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: gray;
+    background-image: url(https://imgs.search.brave.com/hKvm_U9NGlXvVVGcODMQ-t-dZs0CLNjVh4Ss31JabWk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGltZXNvZnNwb3J0/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDEvSVBM/LUxvZ28tcG5nLndl/YnA);
+    background-size: cover;
+    background-position: center;
+}
+.main>h1{
+    position: absolute;
+    top: 7%;
+    font-size: 40px;
+    color: transparent;
+    position: absolute;
+    background: linear-gradient(to right, red, blue ,yellow );
+    -webkit-background-clip: text;
+    
+}
+.main>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 270px;
+    padding: 12px , 20px;
+    background-color: rgba(0, 0, 0, 0.907);
+    color: white;
+    margin-top: -5%;
+}
+.main>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    /* margin-top: 15%; */
+    cursor: pointer;
+}
