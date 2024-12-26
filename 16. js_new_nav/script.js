@@ -10,8 +10,8 @@ var nav2 = document.querySelector(".nav2");
 var nav3 = document.querySelector(".nav3");
 var nav4 = document.querySelector(".nav4");
 var leftnav = document.querySelector("#leftnav")
- 
-var close = document.querySelector(".close");
+
+var close = document.querySelector(".right i");
 var main = document.querySelector(".main");
 var nnn = document.querySelector(".nnn");
 
@@ -110,35 +110,21 @@ function click() {
             flag5 = 1;
         }
     });
-    cursor.addEventListener("click", function(){
-        
+    cursor.addEventListener("click", function () {
+
 
 
     });
-    
+
 }
 click()
 
-close.addEventListener("click", function () {
-    nav1.style.display = 'none';
-    nav2.style.display = 'none';
-    nav3.style.display = 'none';
-    nav4.style.display = 'none';
-    nnn.style.display = 'none';
-    leftnav.style.display = 'none';
-    flag = 1;
-    flag2 = 1;
-    flag3 = 1;
-    flag4 = 1;
-    flag5 = 1;
 
-});
-
+var loader = document.querySelector("#loader")
 function loaderAnimation() {
-    var loader = document.querySelector("#loader")
     setTimeout(function () {
-        loader.style.top = "-100%"
-    }, 4200)
+        loader.style.top = '-100%';
+    }, 1000);
 }
 
 loaderAnimation()
